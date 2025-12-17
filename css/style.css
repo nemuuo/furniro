@@ -1,0 +1,313 @@
+* {
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2 {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.hdr-ul a:hover {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    color: #B88E2F;
+    background-color: transparent;
+    border: 1px solid #B88E2F;
+    transform: scale(1.1);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hdr-ul, .hdr-icons {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+.hdr-ul a, .hdr-icons a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hdr-ul {
+    gap: 75px;
+    margin-left: 266px;
+    margin-right: 158px;
+}
+
+.hdr-icons {
+    gap: 45px;
+}
+
+.hdr-icons img {
+    width: 28px;
+}
+
+header .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 1440px;
+    font-size: 16px;
+}
+
+.logo img {
+    width: 185px;
+}
+
+.contact .container {
+    height: 316px;
+    background-image: url(../img/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-group {
+    width: 196px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-group h1 {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.contact-group p {
+    margin-top: -20px;
+}
+
+.contact-group span {
+    font-weight: 600;
+}
+
+.contact-logo img {
+    margin-top: 61px;
+    margin-bottom: -40px;
+}
+
+.titles-us {
+    padding-top: 100px;
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.titles-us h2 {
+    font-size: 36px;
+}
+
+.titles-us p {
+    color: #9F9F9F;
+    font-size: 16px;
+}
+
+.main-p {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.mini-p {
+    max-width: 212px;
+}
+
+.text-block img {
+    margin-right: 30px;
+}
+
+.text-block {
+    margin-top: 42px;
+}
+
+.first-row {
+    width: 400px;
+    padding-top: 82px;
+}
+
+.second-row {
+    padding-top: 120px;
+}
+
+.form-block {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.rows {
+    display: flex;
+    gap: 30px;
+}
+
+.inputs-group input {
+    border: 1px solid #9F9F9F;
+    border-radius: 10px;
+    padding: 26px 0 26px 30px;
+    width: 500px;
+}
+
+.inputs-group p {
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 32px;
+}
+
+.inputs-group input::placeholder {
+    color: #9F9F9F;
+    font-size: 16px;
+}
+
+.textarea {
+    height: 100px;
+}
+
+.textarea::placeholder {
+    transform: translateY(-40px);
+}
+
+
+.form-btn {
+    margin-top: 49px;
+    width: 235px;
+    height: 55px;
+    border: none;
+    color: white;
+    background-color: #B88E2F;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 63px;
+}
+
+.quality {
+    height: 270px;
+    background-color: #FAF3EA;
+    width: 100%;
+    display: flex;
+}
+
+.quality .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quality-group {
+    display: flex;
+    width: 328px;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.qu-second-group h2 {
+    margin: 0px;
+}
+
+.qu-second-group p {
+    margin: 2px 0 0 5px;
+    font-weight: 600;
+    color: #898989;
+}
+
+footer .container {
+    margin-top: 30px;
+    border-top: 1px solid #D9D9D9;
+}
+
+.footer-block {
+    padding-top: 48px;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.links-ft {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    margin-left: 136px;
+}
+
+.links-ft a {
+    font-weight: 600;
+}
+
+.gray {
+    color: #9F9F9F;
+    font-weight: 600;
+}
+
+
+.furniro-address h2 {
+    margin: 0 0 50px 0;
+}
+
+.furniro-address p {
+    max-width: 285px;
+    font-weight: 400;
+}
+
+.form-ft {
+    margin-left: 72px;
+}
+
+.input-ft {
+    margin-top: 40px;
+}
+
+.input-ft input {
+    width: 200px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+}
+
+.input-ft input::placeholder {
+    font-weight: 500;
+    color: #9F9F9F;
+    font-size: 14px;
+}
+
+.input-ft button {
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+    font-weight: 600;
+}
+
+.copyright {
+    padding-top: 48px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.copyright hr {
+    color: #D9D9D9;
+}
+
+.copyright p {
+    font-weight: 500;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
